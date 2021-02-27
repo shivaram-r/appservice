@@ -25,6 +25,8 @@ namespace appservice.Controllers
 
         public IActionResult Privacy()
         {
+        List<string> nullCheck;
+        int i = nullCheck.Count();
             return View();
         }
 
