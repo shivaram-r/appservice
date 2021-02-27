@@ -25,6 +25,8 @@ namespace appservice.Controllers
 
         public IActionResult Privacy()
         {
+            List<string> lString;
+            lString.Add("t");
             return View();
         }
 
